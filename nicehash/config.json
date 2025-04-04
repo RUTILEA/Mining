@@ -1,0 +1,51 @@
+{
+    "autosave": true,
+    "cpu": false,
+    "opencl": false,
+    "cuda": {
+        "enabled": true,
+        "loader": null,
+        "nvml": true,
+        "devices": [2],
+        "bfactor": null,
+        "bsleep": null
+    },
+    "pools": [
+        {
+            "url": "YOUR_POOL_ADDRESS",
+            "user": "YOUR_BTC_ADDRESS.YOUR_WORKER_NAME",
+            "pass": "x",
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+    "api": {
+        "port": 4067,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": false
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "log-file": null,
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "pause-on-battery": false
+}
